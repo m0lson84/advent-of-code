@@ -6,6 +6,7 @@ const MAX_RED: u32 = 12;
 const MAX_GREEN: u32 = 13;
 const MAX_BLUE: u32 = 14;
 
+/// Part one of today's puzzle.
 pub fn part_one(input: &str) -> Option<u32> {
     let mut sum = 0;
     for line in input.lines() {
@@ -18,6 +19,7 @@ pub fn part_one(input: &str) -> Option<u32> {
     Some(sum)
 }
 
+/// Part two of today's puzzle.
 pub fn part_two(input: &str) -> Option<u32> {
     let mut sum = 0;
     for line in input.lines() {
@@ -26,6 +28,7 @@ pub fn part_two(input: &str) -> Option<u32> {
     Some(sum)
 }
 
+/// Calculate the power of a game.
 fn calculate_power(input: &str) -> u32 {
     let sets = get_sets(input);
     let (mut red, mut green, mut blue) = (0, 0, 0);
@@ -43,6 +46,7 @@ fn calculate_power(input: &str) -> u32 {
     red * green * blue
 }
 
+/// Get the color and count of a cube.
 fn get_cube(input: &str) -> (&str, u32) {
     let mut iter = input.split_whitespace();
     let count = iter.next().unwrap().parse::<u32>().unwrap();
@@ -50,6 +54,7 @@ fn get_cube(input: &str) -> (&str, u32) {
     (color, count)
 }
 
+/// Get the identifier for a given game.
 fn get_game_id(input: &str) -> u32 {
     let game_id = input.split(':').next().unwrap();
     game_id
@@ -60,11 +65,13 @@ fn get_game_id(input: &str) -> u32 {
         .unwrap()
 }
 
+/// Get the sets for a given game.
 fn get_sets(input: &str) -> Vec<&str> {
     let sets = input.split(':').nth(1).unwrap();
     sets.split(';').collect()
 }
 
+/// Check if a given game is valid.
 fn validate(input: &str) -> bool {
     let sets = get_sets(input);
     for set in sets {

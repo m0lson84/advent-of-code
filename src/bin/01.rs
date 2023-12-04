@@ -1,5 +1,6 @@
 advent_of_code::solution!(1);
 
+/// Part one of today's puzzle.
 pub fn part_one(input: &str) -> Option<u32> {
     let mut sum = 0;
     for line in input.lines() {
@@ -13,6 +14,7 @@ pub fn part_one(input: &str) -> Option<u32> {
     Some(sum)
 }
 
+/// Part two of today's puzzle.
 pub fn part_two(input: &str) -> Option<u32> {
     let mut sum = 0;
     for line in input.lines() {
@@ -24,10 +26,12 @@ pub fn part_two(input: &str) -> Option<u32> {
     Some(sum)
 }
 
+/// Get all numeric characters from the input string.
 fn get_numeric_chars(input: &str) -> Vec<char> {
     input.chars().filter(|c| c.is_numeric()).collect()
 }
 
+/// Replace number words with their numeric representation.
 fn replace_numeric_words(input: &str) -> String {
     let mut replaced = input.to_owned();
     let digits = [
