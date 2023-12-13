@@ -57,12 +57,7 @@ fn get_cube(input: &str) -> (&str, u32) {
 /// Get the identifier for a given game.
 fn get_game_id(input: &str) -> u32 {
     let game_id = input.split(':').next().unwrap();
-    game_id
-        .split_whitespace()
-        .last()
-        .unwrap()
-        .parse::<u32>()
-        .unwrap()
+    game_id.split_whitespace().last().unwrap().parse::<u32>().unwrap()
 }
 
 /// Get the sets for a given game.

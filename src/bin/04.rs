@@ -70,10 +70,7 @@ fn get_cards(input: &str) -> Vec<Card> {
 
 /// Convert a string into a vector of numbers.
 fn get_numeric_array(input: &str) -> Vec<u32> {
-    input
-        .split_whitespace()
-        .map(|x| x.parse::<u32>().unwrap())
-        .collect()
+    input.split_whitespace().map(|x| x.parse::<u32>().unwrap()).collect()
 }
 
 #[cfg(test)]

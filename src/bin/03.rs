@@ -11,10 +11,7 @@ pub fn part_one(input: &str) -> Option<u32> {
         let mut checked = false;
         for (column, element) in iter.enumerate() {
             let current: char = *element;
-            if current.is_ascii_digit()
-                && !checked
-                && !get_neighbors(&chars, row, column).is_empty()
-            {
+            if current.is_ascii_digit() && !checked && !get_neighbors(&chars, row, column).is_empty() {
                 result += get_number(&chars, &row, &column);
                 checked = true;
                 continue;
@@ -45,8 +42,7 @@ pub fn part_two(input: &str) -> Option<u32> {
                     let key = (selected_row, selected_column);
                     let value = get_number(&chars, &row, &column);
                     if stars.contains_key(&key) {
-                        let mut vector: Vec<u32> =
-                            stars.get(&(selected_row, selected_column)).unwrap().clone();
+                        let mut vector: Vec<u32> = stars.get(&(selected_row, selected_column)).unwrap().clone();
                         vector.push(value);
                         stars.insert(key, vector);
                     } else {
@@ -115,11 +111,7 @@ fn get_neighbors(chars: &Array2D<char>, row: usize, column: usize) -> Vec<&char>
         .collect()
 }
 
-fn get_neighboring_stars(
-    chars: &Array2D<char>,
-    row: usize,
-    column: usize,
-) -> Vec<(usize, usize, Option<&char>)> {
+fn get_neighboring_stars(chars: &Array2D<char>, row: usize, column: usize) -> Vec<(usize, usize, Option<&char>)> {
     let mut candidates: Vec<(usize, usize, Option<&char>)> = Vec::new();
     candidates.push((
         column.checked_add(1).unwrap(),
