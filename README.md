@@ -3,18 +3,18 @@
 > In the heart of the North Pole, amidst the enchanting snow-covered landscape and the sparkling lights of Santa's Workshop, you, a devoted member of the [ElfScript Brigade](https://github.com/luxedo/esb?tab=readme-ov-file#esb---elfscript-brigade), step forward as the guiding star seeker. Fueled by an insatiable curiosity and a fervor for unraveling intricate coding puzzles, your resolve is unwavering. You believe wholeheartedly that every star collected is a step closer to weaving the magic of Christmas. As you conquer algorithms and elegantly craft lines of code, your vision extends beyond the monitor, picturing the joy and wonder these digital triumphs bring to children across the globe. In the tranquil hours of the Arctic night, armed with a keyboard and resolute determination, you persist in chasing those elusive stars. Each puzzle solved becomes a beacon of hope, a testament to your dedication, and a significant stride toward safeguarding Christmas for all.
 
 <!-- Do not delete - Report start -->
-* Brigadista ID: 23bc4230-d7eb-4fce-8204-007d03041434
-* In Duty Since: 2024-12-01 14:48:27.450148-05:00
+* Brigadista ID: 428a1ef3-0906-4541-8a9f-d11782e6dc51
+* In Duty Since: 2024-12-02 09:10:06.385324-05:00
 
 ## SERVICE STARS
 
 
-### 2024 (1/25)
+### 2024 (2/25)
 
 <table>
   <tr>
-    <td>🐹🐹</td>
     <td>☐ ☐</td>
+    <td>🐹🐹</td>
     <td>☐ ☐</td>
     <td>☐ ☐</td>
     <td>☐ ☐</td>
@@ -22,7 +22,7 @@
   </tr>
   <tr>
     <td>⭐⭐</td>
-    <td>☆ ☆</td>
+    <td>⭐⭐</td>
     <td>☆ ☆</td>
     <td>☆ ☆</td>
     <td>☆ ☆</td>
