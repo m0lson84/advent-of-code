@@ -1,0 +1,23 @@
+#################################
+#     Advent of Code Tests      #
+#         Year: 2024            #
+#           Day: 04             #
+#################################
+[test.test_01]
+answer = 18
+input = """MMMSXXMASM
+MSAMXMSMSA
+AMXSXMAAMM
+MSAMASMSMX
+XMASAMXAMM
+XXAMMXXAMA
+SMSMSASXSS
+SAXAMASAAA
+MAMMMXMMMM
+MXMXAXMASX"""
+part = 1
+
+[test.test_02]
+answer = 48
+input  = """"""
+part   = 2
