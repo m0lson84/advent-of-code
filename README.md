@@ -189,3 +189,25 @@ By default, `cargo time` does not write to the readme. In order to do so, append
 > [!NOTE]
 > Please note that these are not _scientific_ benchmarks, understand them as a fun approximation. 😉 Timings, especially
 > in the microseconds range, might change a bit between invocations.
+
+## Results
+
+<!--- advent_readme_stars table --->
+
+|                     Day                      | Part 1 | Part 2 |
+| :------------------------------------------: | :----: | :----: |
+| [Day 1](https://adventofcode.com/2025/day/1) |   ⭐   |   ⭐   |
+
+<!--- advent_readme_stars table --->
+
+## Benchmarks
+
+<!--- benchmarking table --->
+
+|           Day            |  Part 1  |  Part 2  |
+| :----------------------: | :------: | :------: |
+| [Day 1](./src/bin/01.rs) | `82.6µs` | `93.5µs` |
+
+**Total: 0.18ms**
+
+<!--- benchmarking table --->
