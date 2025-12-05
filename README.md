@@ -201,6 +201,7 @@ By default, `cargo time` does not write to the readme. In order to do so, append
 | [Day 1](https://adventofcode.com/2025/day/1) |   ⭐   |   ⭐   |
 | [Day 2](https://adventofcode.com/2025/day/2) |   ⭐   |   ⭐   |
 | [Day 3](https://adventofcode.com/2025/day/3) |   ⭐   |   ⭐   |
+| [Day 4](https://adventofcode.com/2025/day/4) |   ⭐   |   ⭐   |
 
 <!--- advent_readme_stars table --->
 
@@ -208,12 +209,13 @@ By default, `cargo time` does not write to the readme. In order to do so, append
 
 ## Benchmarks
 
-|           Day            |  Part 1  |  Part 2   |
-| :----------------------: | :------: | :-------: |
-| [Day 1](./src/bin/01.rs) | `54.8µs` | `38.0µs`  |
-| [Day 2](./src/bin/02.rs) | `27.5ms` | `117.3ms` |
-| [Day 3](./src/bin/03.rs) | `34.8µs` | `58.8µs`  |
+|           Day            |  Part 1   |  Part 2   |
+| :----------------------: | :-------: | :-------: |
+| [Day 1](./src/bin/01.rs) | `54.8µs`  | `38.0µs`  |
+| [Day 2](./src/bin/02.rs) | `27.5ms`  | `117.3ms` |
+| [Day 3](./src/bin/03.rs) | `34.8µs`  | `58.8µs`  |
+| [Day 4](./src/bin/04.rs) | `123.5µs` |  `4.0ms`  |
 
-**Total: 144.99ms**
+**Total: 149.11ms**
 
 <!--- benchmarking table --->
