@@ -202,6 +202,7 @@ By default, `cargo time` does not write to the readme. In order to do so, append
 | [Day 2](https://adventofcode.com/2025/day/2) |   ⭐   |   ⭐   |
 | [Day 3](https://adventofcode.com/2025/day/3) |   ⭐   |   ⭐   |
 | [Day 4](https://adventofcode.com/2025/day/4) |   ⭐   |   ⭐   |
+| [Day 5](https://adventofcode.com/2025/day/5) |   ⭐   |   ⭐   |
 
 <!--- advent_readme_stars table --->
 
@@ -215,7 +216,8 @@ By default, `cargo time` does not write to the readme. In order to do so, append
 | [Day 2](./src/bin/02.rs) | `27.5ms`  | `117.3ms` |
 | [Day 3](./src/bin/03.rs) | `34.8µs`  | `58.8µs`  |
 | [Day 4](./src/bin/04.rs) | `123.5µs` |  `4.0ms`  |
+| [Day 5](./src/bin/05.rs) | `90.8µs`  | `28.2µs`  |
 
-**Total: 149.11ms**
+**Total: 149.23ms**
 
 <!--- benchmarking table --->
